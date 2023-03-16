@@ -5,7 +5,7 @@ This repository contains UI automated tests for the MSalamon Shop.
 
 ## How to use
 
-To use this repository the following steps have to be followed:
+To use this project repository, please follow these steps:
 
 * Download the repository from https://github.com/Dawid-Krasik/Projekt/
 * Import it as a Maven project using an IDE like IntelliJ or Eclipse.
