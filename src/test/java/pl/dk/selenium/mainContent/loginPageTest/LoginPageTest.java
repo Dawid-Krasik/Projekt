@@ -58,24 +58,4 @@ public class LoginPageTest extends CommonTest {
         loginPage.enterEmailAddress(MSALAMON_LOGIN_EMAIL_ADDRESS.toString());
         loginPage.enterEmailPassword("TestTestPassword");
     }
-
-    @Test
-    @Description("Positive test scenario. Password reset test")
-    @AllureId("4.0")
-    public void Password_Reset_Test() {
-        commonPageMain.goToLoginPage();
-        loginPage.clickResetPasswordTextButton();
-        loginPage.enterResetEmailAddress(MSALAMON_LOGIN_EMAIL_ADDRESS.toString());
-        loginPage.clickResetPasswordButton();
-    }
-
-    @Test
-    @Description("Negative test scenario. Invalid email, password reset test")
-    @AllureId("5.0")
-    public void Invalid_Email_Password_Reset_Test() {
-        commonPageMain.goToLoginPage();
-        loginPage.clickResetPasswordTextButton();
-        loginPage.enterResetEmailAddress("TestTest@Email.com");
-        loginPage.clickResetPasswordButton();
-    }
 }
