@@ -22,7 +22,7 @@ jobs:
           java-version: '11'
           java-package: jdk
           architecture: x64
-          distribution: 'adoptopenjdk'  # Dodaj ten parametr, np. adoptopenjdk, zulu, amazon-corretto, lub oracle
+          distribution: 'temurin'
 
       - name: Cache Maven dependencies
         uses: actions/cache@v2
