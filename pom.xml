@@ -387,6 +387,17 @@
                             </execution>
                         </executions>
                     </plugin>
+                    <!--EXECUTE TESTS _ SMOKE TESTS -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${maven-surefire-plugin.version}</version>
+                        <configuration>
+                            <includes>
+                                <include>**/SmokeTest*.java</include>
+                            </includes>
+                        </configuration>
+                    </plugin>
 
                     <!-- GENERATE ALLURE REPORT -->
                     <plugin>
