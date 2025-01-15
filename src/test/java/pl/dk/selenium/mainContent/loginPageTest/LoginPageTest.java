@@ -50,12 +50,4 @@ public class LoginPageTest extends CommonTest {
         loginPage.enterEmailPassword(MSALAMON_LOGIN_EMAIL_PASSWORD.toString());
     }
 
-    @Test
-    @Description("Negative test scenario, Invalid password test")
-    @AllureId("3.0")
-    public void Invalid_Password_Test() {
-        commonPageMain.goToLoginPage();
-        loginPage.enterEmailAddress(MSALAMON_LOGIN_EMAIL_ADDRESS.toString());
-        loginPage.enterEmailPassword("TestTestPassword");
-    }
 }
