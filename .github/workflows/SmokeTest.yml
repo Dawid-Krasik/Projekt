@@ -1,4 +1,4 @@
-name: Run JUnit Tests
+name: Smoke Test
 
 on:
   push:
