@@ -57,7 +57,7 @@ public class LoginPage extends CommonPageMain {
 
     public void enterEmailAddress(String emailAddress){
         PerformAction.clearTextFieldStepless(selectorEmailAddressInputField);
-        PerformAction.fillTextField(selectorEmailAddressInputField, emailAddress, "Nazwa użytkownika lub adres e-mail");
+        PerformAction.fillTextField(selectorEmailAddressInputField, emailAddress, "Nazwa użytkownika lub adress e-mail");
     }
 
     public void enterEmailPassword(String emailPassword){
