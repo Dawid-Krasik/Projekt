@@ -2,6 +2,11 @@ name: Run Full Regression Tests
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - master
+      - develop
+      - release/*
 
 jobs:
   build:
