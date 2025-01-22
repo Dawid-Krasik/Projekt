@@ -4,5 +4,5 @@ WWW_FRONT_URL_SHOP_ACCOUNT_PAGE                 ,https://sklep.msalamon.pl/moje-
 WWW_FRONT_URL_SHOPPING_CART_PAGE                ,https://sklep.msalamon.pl/koszyk/      		     						,  ,
 WWW_FRONT_URL_WISHLIST_PAGE						               ,https://sklep.msalamon.pl/wishlist/    		     						,  ,
 WWW_FRONT_URL_NEWS_LETTER_PAGE			               ,https://sklep.msalamon.pl/newsletter/   		     					,  ,
-MSALAMON_LOGIN_EMAIL_ADDRESS       													,Dawid.krasik94@gmail.com                            ,  ,
-MSALAMON_LOGIN_EMAIL_PASSWORD      													,Pass123word!                                        ,  ,
+MSALAMON_LOGIN_EMAIL_ADDRESS       													,                          																										,  ,
+MSALAMON_LOGIN_EMAIL_PASSWORD      													,                                    																,  ,

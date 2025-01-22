@@ -36,6 +36,9 @@ jobs:
         run: mvn clean install -DskipTests
 
       - name: Run full regression tests
+        env:
+          MSALAMON_LOGIN_EMAIL_ADDRESS: ${{ secrets.MSALAMON_LOGIN_EMAIL_ADDRESS }}
+          MSALAMON_LOGIN_EMAIL_PASSWORD: ${{ secrets.MSALAMON_LOGIN_EMAIL_PASSWORD }}
         run: mvn test
 
       - name: Generate Allure Report
